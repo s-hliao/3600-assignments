@@ -1,0 +1,15 @@
+digraph {
+	kitchen [label=kitchen]
+	pantry [label=pantry]
+	kitchen -> pantry [label=west]
+	pantry -> kitchen [label=east]
+	backyard [label=backyard]
+	kitchen -> backyard [label=south]
+	backyard -> kitchen [label=north]
+	corridor [label=corridor]
+	backyard -> corridor [label=east]
+	corridor -> backyard [label=west]
+	bedroom [label=bedroom]
+	corridor -> bedroom [label=north]
+	bedroom -> corridor [label=south]
+}
